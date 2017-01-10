@@ -59,8 +59,12 @@ public class MacDonaldsBreakfast {
 		case 11:
 			System.out.println("Breakfast Wrap! (Chicken Ham)");
 			break;
+		
+		case 12: 
+			System.out.println("Breakfast Wrap! (Chicken Bacon with Spinach)");
+			break;
 			
-		case 12:
+		case 13:
 			System.out.println("THE PROMOTION!! :D");
 			break;
 

@@ -9,7 +9,7 @@ public class MacDonaldsBreakfast {
 		System.out.println(" ");
 
 		Random rand = new Random();
-		int allFoods = rand.nextInt(12) + 1;
+		int allFoods = rand.nextInt(13) + 1;
 		int addOn = rand.nextInt(2) + 1;
 		int Sides = rand.nextInt(2) + 1;
 		int Drinks = rand.nextInt(2) + 1;
@@ -51,23 +51,23 @@ public class MacDonaldsBreakfast {
 		case 9:
 			System.out.println("Sunrise Roll! (Chicken Ham)");
 			break;
-			
+
 		case 10:
 			System.out.println("Breakfast Wrap! (Sausage)");
 			break;
-			
+
 		case 11:
 			System.out.println("Breakfast Wrap! (Chicken Ham)");
 			break;
-		
-		case 12: 
+
+		case 12:
 			System.out.println("Breakfast Wrap! (Chicken Bacon with Spinach)");
 			break;
-			
-		case 13:
-			System.out.println("THE PROMOTION!! :D");
-			break;
 
+		case 13:
+			System.out.println("BBQ Beef Burger with Egg!");
+			break;
+			
 		default:
 			System.err.println("Invalid case! You can report this to @PlantsCodes. D:");
 			break;
@@ -93,7 +93,7 @@ public class MacDonaldsBreakfast {
 				System.out.println(" ");
 			}
 		}
-		
+
 		System.out.println("Sides:");
 		if (Sides == 1) {
 			System.out.println("Hashbrowns!");
@@ -101,7 +101,7 @@ public class MacDonaldsBreakfast {
 			System.out.println("Corn Cup!");
 		}
 		System.out.println(" ");
-		
+
 		System.out.println("Drinks:");
 		if (Drinks == 1) {
 			System.out.println("Iced MILO!");

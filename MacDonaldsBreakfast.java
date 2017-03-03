@@ -14,6 +14,7 @@ public class MacDonaldsBreakfast {
 		int Sides = rand.nextInt(2) + 1;
 		int Drinks = rand.nextInt(2) + 1;
 
+		System.out.println("Main Course:");
 		switch (allFoods) {
 
 		case 1:

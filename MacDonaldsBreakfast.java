@@ -67,6 +67,10 @@ public class MacDonaldsBreakfast {
 		case 13:
 			System.out.println("Breakfast Wrap Chicken Ham!");
 			break;
+			
+		default:
+			System.err.println("Invalid case! You can report this to @PlantsCodes. D:");
+			break;
 		}
 		System.out.println(" ");
 		
@@ -101,6 +105,10 @@ public class MacDonaldsBreakfast {
 			
 		case 9:
 			System.out.println("McCaf\u00E9 Latte!");
+			break;
+			
+		default:
+			System.err.println("Invalid case! You can report this to @PlantsCodes. D:");
 			break;
 		}
 		if (mainFood == 5) {

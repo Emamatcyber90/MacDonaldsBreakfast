@@ -68,7 +68,7 @@ public class MacDonaldsBreakfast {
 			break;
 
 		case 14:
-			System.out.println("'Nasi Lemak' Burger! (promotion)");
+			System.out.println("Hotcakes with Chicken Selects! (promotion)"); // promotion//
 			break;
 
 		default:
